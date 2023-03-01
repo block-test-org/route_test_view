@@ -1,0 +1,13 @@
+{
+  "name": "route_test_view",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/block-test-org/route_test_view",
+    "ssh": "git@github.com:block-test-org/route_test_view.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
